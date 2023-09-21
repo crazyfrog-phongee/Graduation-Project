@@ -1,0 +1,20 @@
+Rút gọn chức năng:
+	Truyền thông: LoRa (SPI2): SCK2(PB13), CS2(PA8), MISO2(PB14), MOSI2(PB15), LoRa_EX(PB12), LoRa_RST(PA15)
+	Nút nhấn: PB3, PB4, PB5
+	LED: PC13, PC14, PC15
+	Pin: ADC(PA1)
+	UART (debugging): PA9(TX1), PA10(RX1)
+
+Setup node project:
+	Setup freeRTOS
+		https://www.youtube.com/watch?v=ihDOLc1aTjc&ab_channel=DEVIOTL%E1%BA%ADptr%C3%ACnh%E1%BB%A8ngd%E1%BB%A5ng
+		https://hocarm.org/rtos-voi-cubemx/
+	Setup USART1
+		https://tapit.vn/luoc-ly-thuyet-ve-chuc-nang-uart-va-mot-thanh-ghi-trong-chip-stm32f103c8t6/
+		https://tapit.vn/huong-dan-chuc-nang-uart-transfer-polling-voi-cubemx-su-dung-cho-chip-stm32f103c8t6/
+	Make common.h, common.c file
+	GPIO cho 3 LED
+		https://tapit.vn/lap-trinh-gpio-nhap-nhay-led-pc13-stm32f103c8t6/
+		https://khuenguyencreator.com/lap-trinh-stm32-gpio-led-va-nut-nhan/
+	ADC cho Battery
+		https://electronics.stackexchange.com/questions/333153/how-to-estimate-battery-voltage-in-stm-without-extra-component
