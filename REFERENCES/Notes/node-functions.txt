@@ -18,3 +18,4 @@ Setup node project:
 		https://khuenguyencreator.com/lap-trinh-stm32-gpio-led-va-nut-nhan/
 	ADC cho Battery
 		https://electronics.stackexchange.com/questions/333153/how-to-estimate-battery-voltage-in-stm-without-extra-component
+	
