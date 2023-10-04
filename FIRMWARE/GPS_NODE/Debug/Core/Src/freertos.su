@@ -1,4 +1,5 @@
-../Core/Src/freertos.c:76:6:vApplicationGetIdleTaskMemory	24	static
-../Core/Src/freertos.c:90:6:MX_FREERTOS_Init	56	static
-../Core/Src/freertos.c:130:6:StartDefaultTask	40	static
-../Core/Src/freertos.c:147:6:peripheral_task	72	static
+../Core/Src/freertos.c:78:6:vApplicationGetIdleTaskMemory	24	static
+../Core/Src/freertos.c:92:6:MX_FREERTOS_Init	56	static
+../Core/Src/freertos.c:133:6:StartDefaultTask	40	static
+../Core/Src/freertos.c:150:6:peripheral_task	72	static
+../Core/Src/freertos.c:197:6:sx1278_task	56	static

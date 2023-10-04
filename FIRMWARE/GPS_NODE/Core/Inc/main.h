@@ -36,14 +36,7 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-typedef struct sx1278_node
-{
-	int node_id;
-	int gate_id;
-	char battery[10];
-	int period;
-	char threshold[10];
-} sx1278_node_t;
+
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
@@ -70,6 +63,11 @@ void Error_Handler(void);
 #define LED1_GPIO_Port GPIOC
 #define LED2_Pin GPIO_PIN_15
 #define LED2_GPIO_Port GPIOC
+#define LoRa_EXTI2_Pin GPIO_PIN_12
+#define LoRa_EXTI2_GPIO_Port GPIOB
+#define LoRa_EXTI2_EXTI_IRQn EXTI15_10_IRQn
+#define LoRa_RST_Pin GPIO_PIN_15
+#define LoRa_RST_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
