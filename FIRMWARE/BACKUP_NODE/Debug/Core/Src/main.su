@@ -1,0 +1,6 @@
+../Core/Src/main.c:59:9:get_crc_value	24	static
+../Core/Src/main.c:69:6:send_respond	64	static
+../Core/Src/main.c:90:5:main	520	static
+../Core/Src/main.c:162:6:SystemClock_Config	72	static
+../Core/Src/main.c:198:6:HAL_GPIO_EXTI_Callback	16	static
+../Core/Src/main.c:209:6:Error_Handler	4	static,ignoring_inline_asm
